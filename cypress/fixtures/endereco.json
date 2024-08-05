@@ -1,0 +1,38 @@
+[
+    {
+        "firstName": "Ruben",
+        "lastName": "Manuel",
+        "company": "Google",
+        "country": "Angola",
+        "address1": "Rocha Pinto",
+        "address2": "Rua da Enana",
+        "city": "Luanda",
+        "state": "Luanda",
+        "phone": "934556838",
+        "email": "rubensapalo@gmail.com"
+    },
+    {
+        "firstName": "Maria",
+        "lastName": "Paulo",
+        "company": "Facebook",
+        "country": "Angola",
+        "address1": "Bairro Benfica",
+        "address2": "Rua 10",
+        "city": "Luanda",
+        "state": "Luanda",
+        "phone": "949538123",
+        "email": "mariapaulo@gmail.com"
+    },
+    {
+        "firstName": "Bento",
+        "lastName": "Francisco",
+        "company": "BAI",
+        "country": "Angola",
+        "address1": "Bairro Benfica",
+        "address2": "Rua do Monte",
+        "city": "Lubango",
+        "state": "Huíla",
+        "phone": "994002345",
+        "email": "bentofrancisco@gmail.com"
+    }
+]

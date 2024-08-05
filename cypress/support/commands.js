@@ -23,3 +23,12 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('login', (name, email) => {
+    cy.get('#username').type(name)
+    cy.get('#password').type(email)
+    cy.get('.woocommerce-form > .button').click()
+
+    cy.get('.page-title').should('contain', 'Minha conta')
+    cy.get('.woocommerce-MyAccount-content > :nth-child(2)').should('contain', 'Olá, aluno_ebac-7841 (não é aluno_ebac-7841? Sair)')
+})
